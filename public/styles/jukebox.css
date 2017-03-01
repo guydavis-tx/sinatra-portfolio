@@ -1,0 +1,50 @@
+body {
+	max-width: 480px;
+	min-width: 480px;
+	background-color: #CCC;
+}
+
+#cover-art {
+	width: 100px;
+	height: 100px;
+	align-content: left;
+}
+
+fieldset {
+	background-color: white;
+	text-align: center;
+}
+
+#current-song {
+	font-size: 3em;
+	margin: 0px 0px 20px 10px;
+}
+
+#artist {
+	font-size: 2em;
+	font-style: italic;
+	margin: 0px 0px 20px 10px;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+#juke-controls {
+	margin: 10px 10px 10px 0px;
+} 
+#juke-songs {
+	margin: 10px 10px 20px 0px;
+}
+
+.songButton{
+	padding: 1em;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #285b4e;
+	margin: 5px 0px 0px 0px;
+	font-size: .85em;
+	width: 300px;
+	color: white;
+}
+

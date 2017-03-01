@@ -1,0 +1,181 @@
+body {
+	background-color: grey
+	/* remove? */
+	padding: 1em;
+	margin: 50px auto;
+}
+h1 {
+	font-size: 14px;
+	color: red;
+}
+
+#hd_title {  /* in header */
+	font-family: helvetica;
+	font-size: 1.5em;
+	color: white;
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+
+}
+#hd_contact {  /* info in header */
+	font-family: helvetica;
+	font-size: .75em;
+	color: white;
+	float: right;
+}
+
+#to_title, #ps_title, #jh_title {
+	font-family: helvetica;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#headshot {
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+	border: 1px solid grey;
+	border-radius: 10px;
+
+}
+.submit_button {
+	padding: .75em;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #285b4e;
+	margin: 5px 0px 0px 0px;
+	font-size: .85em;
+	width: 100px;
+	color: white;
+}
+
+header {
+	position: fixed;
+	padding: 1em;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #3a5a8e;
+	border-bottom: 1px solid #666;
+	z-index: 1;
+	/* flexbox stuff */
+	display: flex;
+	align-items: center;
+
+}
+footer {
+	position: fixed;
+	padding: .5em;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: #CCC;
+	border-top: 1px solid #666;
+}
+
+span.logo {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+}
+span.foot {
+	font-size: 10px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+}
+
+nav {
+	margin-left: auto;
+	margin-right: 2em;
+}
+
+nav li {
+	display: inline-block;
+	background-color: #CCC;
+	padding: .75em;
+	border-radius: 10px;
+}
+
+nav li a {
+	color: #444;
+	text-decoration: none;
+}
+
+
+
+div p {
+	margin: 0px 0px 20px 0px;
+}
+
+@media all and (min-width: 1024px) {
+
+	body {
+		max-width: 1220px;
+	}
+	
+	#to_title, #ps_title, #jh_title {
+		font-size: 14pt;
+	}
+
+	article {
+		background-color: white;
+		padding: 1em;
+		border-radius: 15px;
+		margin-top: 20px;
+		max-width: 950px;
+	}
+	article img{
+		width: 30%;
+		border-radius: 15px;
+		float: left;
+		margin: 0px 30px 10px 0px;
+	}
+}
+
+@media all and (min-width: 769px) and (max-width: 1023px) {
+	body {
+		max-width: 1023px;
+	}
+
+	#to_title, #ps_title, #jh_title {
+		font-size: 12pt;
+	}
+
+	article {
+		background-color: #a4f2d1;
+		padding: 1em;
+		border-radius: 15px;
+		margin-top: 15px;
+		max-width: 800px;
+	}
+	article img{
+		width: 25%;
+		border-radius: 15px;
+		float: left;
+		margin: 0px 30px 10px 0px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	body {
+		max-width: 768px;
+		min-width: 350px;
+	}
+
+	#to_title, #ps_title, #jh_title {
+		font-size: 10pt;
+	}
+
+	article {
+		background-color: orange;
+		padding: 1em;
+		border-radius: 15px;
+		margin-top: 20px;
+		max-width: 640px;
+	}
+	article img{
+		width: 20%;
+		border-radius: 15px;
+		float: left;
+		margin: 0px 30px 10px 0px;
+	}
+}

@@ -1,0 +1,13 @@
+body {
+	background-color: red;
+}
+
+#hex-wrapper {
+	color: white;
+	text-align: center;
+}
+
+#hex-text {
+	font: helvetica;
+	font-size: 5em;
+}

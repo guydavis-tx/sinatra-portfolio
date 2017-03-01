@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Davis Portfolio</title>
+	<!-- By default Sinatra looks in 'public' folder for links -->
+	<link rel="stylesheet" type="text/css" href="/styles/style.css">
+	<script src="/scripts/scripts.js"></script>
+</head>
+<body>
+	<header>
+		<span id="hd_title">Web Developer: Guy Davis</span>
+		
+		<span id="hd_contact">(guydavis.tx@gmail.com)</span>
+		<nav>
+				<li><a href="/" title="Home Page">Home</a></li>
+				<li><a href="/contact-me" title="Contact">Contact Me</a></li>
+				<li><a href="/clock" title="Contact">Clock</a></li>
+				<li><a href="/jukebox" title="Jukebox">Jukebox</a></li>
+
+		</nav>
+	</header>
+	<br>
+
+	<%= yield %>
+	
+	<footer>
+		<span class="foot">Somewhere, Austin, TX 78739 • Phone: 512-nnn-nnnn</span>
+	</footer>
+
+</body>
+</html>
+
